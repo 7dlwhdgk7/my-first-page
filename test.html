@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IH06 이종하 | 문의하기</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="top">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="./intro.html">IH06 이종하</a>
+
+        <nav class="nav">
+          <ul class="flex-container">
+            <li><a href="./intro.html">홈</a></li>
+            <li><a href="./index.html">자기소개</a></li>
+            <li><a href="./goal.html">학습 목표</a></li>
+            <li><a class="active" href="./test.html">문의</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro-section">
+        <p class="section-label">CONTACT</p>
+        <h1 class="page-title">문의하기</h1>
+        <p class="page-description">
+          아래 항목을 입력하여 문의 내용을 남길 수 있습니다.
+        </p>
+      </section>
+
+      <section class="form-card">
+        <form>
+          <div class="form-item">
+            <label for="name">이름</label>
+            <input id="name" type="text" placeholder="이름을 입력하세요." />
+          </div>
+
+          <div class="form-item">
+            <label for="password">비밀번호</label>
+            <input
+              id="password"
+              type="password"
+              placeholder="비밀번호를 입력하세요."
+            />
+          </div>
+
+          <div class="form-item">
+            <label for="email">이메일</label>
+            <input id="email" type="email" placeholder="example@email.com" />
+          </div>
+
+          <div class="form-item">
+            <label for="date">이용 날짜</label>
+            <input id="date" type="date" />
+          </div>
+
+          <div class="form-item">
+            <label for="message">문의 내용</label>
+            <textarea
+              id="message"
+              rows="6"
+              placeholder="문의 내용을 입력하세요."
+            ></textarea>
+          </div>
+
+          <button class="submit-btn" type="submit">문의하기</button>
+        </form>
+      </section>
+    </main>
+
+    <a class="floating-btn" href="#top" aria-label="페이지 맨 위로 이동">↑</a>
+
+    <footer class="site-footer">
+      <p>2026.08.06 ~ 2027.01.29 · 6기 화이팅!</p>
+    </footer>
+  </body>
+</html>
